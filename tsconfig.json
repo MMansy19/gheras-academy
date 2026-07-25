@@ -19,7 +19,24 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@app-types/*": ["./src/types/*"],
+      "@components/*": ["./src/components/*"],
+      "@hooks": ["./src/hooks"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@lib/*": ["./src/lib/*"],
+      "@notifications/*": ["./src/notifications/*"],
+      "@auth/*": ["./src/features/auth/*"],
+      "@profile/*": ["./src/features/profile/*"],
+      "@programs/*": ["./src/features/programs/*"],
+      "@courses/*": ["./src/features/courses/*"],
+      "@lessons/*": ["./src/features/lessons/*"],
+      "@quizzes/*": ["./src/features/quizzes/*"],
+      "@attendance/*": ["./src/features/attendance/*"],
+      "@students/*": ["./src/features/students/*"],
+      "@certificates/*": ["./src/features/certificates/*"],
+      "@payments/*": ["./src/features/payments/*"],
+      "@audit-log/*": ["./src/features/audit-log/*"]
     }
   },
   "include": [
